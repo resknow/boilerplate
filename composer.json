@@ -1,7 +1,7 @@
 {
     "name": "resknow/boilerplate",
     "description": "Boilerplate - A PHP boilerplate that takes the faff out of developing websites.",
-    "license": "Blue Oak Model License",
+    "license": "BlueOak",
     "homepage": "https://github.com/resknow/boilerplate",
     "type": "project",
     "support": {
