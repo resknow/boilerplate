@@ -1,0 +1,28 @@
+{#---
+title: Hello World
+description: Write something about this page here.
+stylesheets:
+    font: https://fonts.googleapis.com/css?family=Montserrat&display=swap
+---#}
+{% extends 'layouts/default.twig' %}
+
+{% block body %}
+
+    {% if site.environment == 'prod' %}
+        <div class="warning"><strong>Something's not right 🤔</strong> This is the default page for Boilerplate and your <code>environment</code> is set to <code>prod</code>.</div>
+    {% endif %}
+
+    <section class="container">
+        <div>
+            <img class="logo" src="/_includes/core/ui/images/logo.png" alt="Boilerplate">
+            <nav>
+                {% if site.environment == 'dev' %}
+                    <a href="/docs/">Documentation</a>
+                {% endif %}
+                <a href="https://github.com/resknow/boilerplate">Github</a>
+                <a href="https://twig.symfony.com/doc/2.x/templates.html">Twig Docs</a>
+            </nav>
+        </div>
+    </section>
+
+{% endblock %}

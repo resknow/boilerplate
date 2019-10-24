@@ -1,0 +1,13 @@
+# Node
+node_modules/
+
+# SASS
+.sass-cache/
+.codekit-cache/
+
+# OS X
+.DS_Store
+_notes/
+
+# Composer
+vendor/

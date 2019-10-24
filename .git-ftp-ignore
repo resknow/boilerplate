@@ -1,0 +1,17 @@
+bitbucket-pipelines.yml
+composer.json
+composer.lock
+.gitignore
+.git-ftp-ignore
+.git-ftp-include
+gulpfile.js
+LICENSE.md
+package.json
+package-lock.json
+README.md
+serve
+yarn.lock
+
+_includes/core/ui/install-plugin.php
+_includes/core/ui/get-installed-plugins.php
+_includes/core/server.php

@@ -1,0 +1,76 @@
+# Admin Mode
+admin_mode: false
+
+# Basic Info
+url: http://boilerplate-repo.localhost
+company: Boilerplate
+email: info@boilerplate.localhost
+
+# Environment
+# @NOTE Set this to 'prod' when putting
+# the site live.
+environment: dev
+
+# Force URL
+#
+# Forces requests to use the defined
+# from this config file.
+#
+# @NOTE This setting will be ignored if
+# environment is set to "dev"
+force_url: true
+
+# Stylesheets
+stylesheets:
+    main: ~/css/style.css
+
+# Scripts
+scripts:
+
+# Forms
+forms:
+    quick:
+        # Form name
+        name: Quick Enquiry
+
+        # Send an email?
+        email: true
+
+        # Save to a database?
+        #
+        # @NOTE This option requires you to have 'db'
+        # defined in your config with connection details
+        # You will also need to import the database-table.sql
+        # file from the plugin directory into your MySQL database
+        db: false
+
+        autoresponder: false
+        recipient: chris@resknow.co.uk
+        subject: New Message From Your Website
+        subject_autoresponder: Thank you for contacting Web Design Croydon
+        success_message: Thank you. Your message has been sent.
+        location: /contact/thanks
+        fields:
+            name:
+                label: Name
+                type: text
+                validate: required
+                filter: trim|sanitize_string
+            email:
+                label: E-mail address
+                type: email
+                placeholder: E-mail address
+                validate: required|valid_email
+                filter: trim
+            phone:
+                label: Phone number
+                type: tel
+                placeholder: Phone number
+                validate: required|numeric
+                filter: trim|sanitize_numbers
+            message:
+                label: Message
+                type: textarea
+                placeholder: Enter your message
+                validate: required
+                filter: trim|sanitize_string

@@ -1,0 +1,10 @@
+<?php
+
+// Attempt to install dependencies if they don't exist
+if ( !is_dir( __DIR__ . '/_includes/vendor' ) ) {
+    echo exec('composer install');
+}
+
+echo 'View your site at http://localhost:8000' . PHP_EOL;
+echo '-------' . PHP_EOL;
+echo exec('php -S localhost:8000 _includes/core/server.php');
