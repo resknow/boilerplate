@@ -10,5 +10,11 @@
  */
 function router() {
     $router = BP\Router::get_instance();
+
+    // Override default 404
+    $router->router()->set404( function() {
+        return;
+    } );
+
     return $router->router();
 }

@@ -2,7 +2,7 @@
 
 /**
  * @package Boilerplate
- * @version 4.0.0-rc2
+ * @version 4.0.1
  * @author Chris Galbraith
  *
  * This file is used to include everything
@@ -26,7 +26,7 @@ session_start();
 define('ROOT_DIR', __DIR__);
 
 // Define Version
-define('VERSION', '4.0.0-rc2');
+define('VERSION', '4.0.1');
 
 // Load Dependencies
 require_once ROOT_DIR . '/_includes/vendor/autoload.php';
