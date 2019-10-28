@@ -15,12 +15,8 @@
         "twig/twig": "2.11",
         "filp/whoops": "2.5",
         "bramus/router": "1.4.2",
-        "mustangostang/spyc": "0.6.3"
-    },
-    "autoload": {
-        "psr-4": {
-            "BP\\": "_includes/core/classes/BP/"
-        }
+        "mustangostang/spyc": "0.6.3",
+        "resknow/boilerplate-core": "^4.0"
     },
     "scripts": {
         "post-create-project-cmd": [
