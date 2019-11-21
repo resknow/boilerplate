@@ -2,7 +2,7 @@
 admin_mode: false
 
 # Basic Info
-url: http://boilerplate-repo.localhost
+url: http://localhost:8000
 company: Boilerplate
 email: info@boilerplate.localhost
 
