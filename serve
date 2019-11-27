@@ -1,5 +1,8 @@
 <?php
 
+echo 'Checking for update before starting...' . PHP_EOL;
+echo exec('composer update') . PHP_EOL;
+
 echo 'View your site at http://localhost:8000' . PHP_EOL;
 echo '-------' . PHP_EOL;
 echo exec('php -S localhost:8000 _includes/server.php');

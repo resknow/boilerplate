@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b80ab86f572488dbb37180106238c857",
+    "content-hash": "1f278f5111e5154cfda153647d2ec999",
     "packages": [
         {
             "name": "bramus/router",
@@ -166,16 +166,16 @@
         },
         {
             "name": "psr/log",
-            "version": "1.1.1",
+            "version": "1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
-                "reference": "bf73deb2b3b896a9d9c75f3f0d88185d2faa27e2"
+                "reference": "446d54b4cb6bf489fc9d75f55843658e6f25d801"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/bf73deb2b3b896a9d9c75f3f0d88185d2faa27e2",
-                "reference": "bf73deb2b3b896a9d9c75f3f0d88185d2faa27e2",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/446d54b4cb6bf489fc9d75f55843658e6f25d801",
+                "reference": "446d54b4cb6bf489fc9d75f55843658e6f25d801",
                 "shasum": ""
             },
             "require": {
@@ -209,20 +209,20 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2019-10-25T08:06:51+00:00"
+            "time": "2019-11-01T11:05:21+00:00"
         },
         {
             "name": "resknow/boilerplate-core",
-            "version": "4.0.4",
+            "version": "4.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/resknow/boilerplate-core.git",
-                "reference": "3d24aecd19b81f2d09050650cbe9a5ae2f735df1"
+                "reference": "422712b30f703f82e13b923ab0887c7c3d830da0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/resknow/boilerplate-core/zipball/3d24aecd19b81f2d09050650cbe9a5ae2f735df1",
-                "reference": "3d24aecd19b81f2d09050650cbe9a5ae2f735df1",
+                "url": "https://api.github.com/repos/resknow/boilerplate-core/zipball/422712b30f703f82e13b923ab0887c7c3d830da0",
+                "reference": "422712b30f703f82e13b923ab0887c7c3d830da0",
                 "shasum": ""
             },
             "require": {
@@ -244,7 +244,7 @@
             ],
             "description": "Boilerplate Core - The core package for Boilerplate",
             "homepage": "https://github.com/resknow/boilerplate-core",
-            "time": "2019-10-28T15:15:25+00:00"
+            "time": "2019-11-21T14:50:38+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
