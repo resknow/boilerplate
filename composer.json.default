@@ -4,7 +4,7 @@
     },
     "require": {
         "php": "^7.1",
-        "resknow/boilerplate-core": "^4.0",
+        "resknow/boilerplate-core": "^4.0.5",
         "twig/twig": "2.11",
         "filp/whoops": "2.5",
         "bramus/router": "1.4.2",
