@@ -16,7 +16,7 @@
         "filp/whoops": "2.5",
         "bramus/router": "1.4.2",
         "mustangostang/spyc": "0.6.3",
-        "resknow/boilerplate-core": "^4.1.0"
+        "resknow/boilerplate-core": "^4.1.1"
     },
     "scripts": {
         "post-create-project-cmd": [

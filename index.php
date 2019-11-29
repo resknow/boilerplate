@@ -2,7 +2,7 @@
 
 /**
  * @package Boilerplate
- * @version 4.0.5
+ * @version 4.1.1
  * @author Chris Galbraith
  *
  * This file is used to include everything

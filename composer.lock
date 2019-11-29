@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a8f08ac2ab0050f2b9ec8982c40c4158",
+    "content-hash": "c1e50aa2b14e0d398b220a498fe499cb",
     "packages": [
         {
             "name": "bramus/router",
@@ -213,16 +213,16 @@
         },
         {
             "name": "resknow/boilerplate-core",
-            "version": "4.1.0",
+            "version": "4.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/resknow/boilerplate-core.git",
-                "reference": "2818f7947f6f2b1eddae8f46f084bc16c78bb8ab"
+                "reference": "a277b71508ab7b5ece5df8592cbf4a704a554654"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/resknow/boilerplate-core/zipball/2818f7947f6f2b1eddae8f46f084bc16c78bb8ab",
-                "reference": "2818f7947f6f2b1eddae8f46f084bc16c78bb8ab",
+                "url": "https://api.github.com/repos/resknow/boilerplate-core/zipball/a277b71508ab7b5ece5df8592cbf4a704a554654",
+                "reference": "a277b71508ab7b5ece5df8592cbf4a704a554654",
                 "shasum": ""
             },
             "require": {
@@ -244,7 +244,7 @@
             ],
             "description": "Boilerplate Core - The core package for Boilerplate",
             "homepage": "https://github.com/resknow/boilerplate-core",
-            "time": "2019-11-28T09:58:35+00:00"
+            "time": "2019-11-29T13:30:39+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
