@@ -47,12 +47,9 @@ forms:
         # file from the plugin directory into your MySQL database
         db: false
 
-        autoresponder: false
-        recipient: chris@resknow.co.uk
+        recipient: hello@example.com
         subject: New Message From Your Website
-        subject_autoresponder: Thank you for contacting Web Design Croydon
         success_message: Thank you. Your message has been sent.
-        location: /contact/thanks
         fields:
             name:
                 label: Name
